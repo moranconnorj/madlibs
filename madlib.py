@@ -1,0 +1,20 @@
+name = input("Please enter a man's name  ")
+madlib = "Dear School Nurse: \n"
+madlib += name
+madlib += " will not be attending school today. He/she has come down with a case of "
+madlib += input("Enter an illness")
+madlib += " and has horrible "
+madlib += input("Enter a Plural Noun")
+madlib += " and a "
+madlib += input("Enter an Adjective")
+madlib += " fever. We have made an appointmet with the "
+madlib += input("Enter an Adjective")
+madlib += " Dr. "
+madlib += input("Enter a Silly word")
+madlib += ", who studied for many years in "
+madlib += input("Enter a Place")
+madlib += " and has "
+madlib += input("Enter a Number")
+madlib += " degrees in pediatrics. He will send you all the information you need. Thank you! \n \t Sincerely: \n Mrs. "
+madlib += input("Enter an Adjective")
+print(madlib)
